@@ -1,0 +1,58 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#buttonStyle{
+    -fx-background-color: #c3c4c4,
+     linear-gradient(#d6d6d6 50%, white 100%),
+     radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+#pane{
+    -fx-background-image: url("photosJeu/fire.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+/*.topHBox{
+    -fx-background-color: aquamarine;
+    -fx-font-size: 24px;
+    -fx-font-weight: bolder;
+}
+.leftVBoxText{
+    -fx-font-size: 16px;
+    -fx-font-weight: bolder;
+
+}
+.createPaymentLabel{
+    -fx-font-size: 16px;
+        -fx-font-weight: bolder;
+
+}
+.paymentVBox{
+    -fx-border-width: 2px;
+    -fx-border-color: #004080;
+        -fx-font-weight: bolder;
+
+}
+.button{
+        -fx-background-insets: 2px;
+    fx-pref-height: 25;
+    -fx-pref-width: 100;
+            -fx-text-fill:white;
+
+    -fx-background-color:cadetblue;
+
+
+}
+.label2{
+    -fx-text-alignment: center;
+    -fx-font: 18px "Serif";
+    -fx-pref-height: 50;
+    -fx-pref-width: 200;
+        -fx-text-fill:white;
+    -fx-background-insets: 5px;
+    -fx-background-color: #004080;
+}*/
